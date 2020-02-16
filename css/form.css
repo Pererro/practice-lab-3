@@ -1,0 +1,11 @@
+
+.container {
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding: 100px;
+  }
+
+  .border{
+    padding: 100px;
+    border-style: solid;
+  }

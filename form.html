@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>Create a New Event</title>
+	<link rel="stylesheet" href="css/form.css">
+	<script src = "js/form.js"></script>
+</head>
+<div class="container">
+    <div class="border">
+<body>
+    <FORM> 
+            <label for ="Event" >Event Type:&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+            <select id="any" name="any" required>
+            <option value="choose one">Choose one</option>
+            <option value="Any1">Any1</option>
+            <option value="Any2">Any2</option>
+            <option value="Any3">Any3</option>
+            </select></br><br>
+
+            <label for ="Title">Event Title:&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+			<input type = "text" name = "Title" id = "title" size ="70"required><br/><br>
+           
+            <label for ="Date">Event Dates:&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+            <input type = "text" name = "Eventdate" id = "Eventdate" size ="10" required>&nbsp; to &nbsp;
+            <input type = "text" name = "Eventdate2" id = "Edate2" size ="10" required></nobr><br/><br>
+            <label for ="PostingDate">Posting Date:&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+			<input type = "text" name = "Postingdate" id = "Postingdate" size ="10"required><br/><br>
+   
+ 
+        <input type="checkbox" id="Registration" name="Registration" value="">
+        <label for="box1">Is Registration Required?</label><br><br>
+        <input type="checkbox" id="Family" name="Family" value="">
+        <label for="box2">Is This Event Assocciated With Any Family Programs?</label><br><br>
+        <input type="checkbox" id="Completion" name="Completion" value="">
+        <label for="box3">Upon Registration Completion , Are Users to Recieve An Auto Generated Email?  </label><br><br>
+        <input type="checkbox" id="Point" name="Point" value="">
+        <label for="bo4">Is There A Point Of Contact?</label><br><br>
+        <input type="checkbox" id="Command" name="Command" value="">
+        <label for="box5">Is There A Hosting Command Point Of Contract</label><br><br><br>
+        <h2>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+         <input type = "submit" id ="save"  value = "Save" onclick="server1()"/>&emsp;
+        <button type="reset" value="Reset">Cancel</button>
+        </div>
+        </div>
+      </form > 
+      
+        </h2>
+</body>
+</html>
